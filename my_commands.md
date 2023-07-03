@@ -52,3 +52,5 @@ Run the command:
         - Change `folder` to `docs`
         - Wait a moment and click on the live site which will appear on top
 
+# Dependencies
+`ng add @angular/material`
