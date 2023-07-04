@@ -54,3 +54,7 @@ Run the command:
 
 # Dependencies
 `ng add @angular/material`
+
+# Creating pages
+`ng generate component home`
+`ng generate component contact`
