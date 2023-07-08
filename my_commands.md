@@ -8,6 +8,7 @@
 ## (optional) Update Node
 - `node -v`
 - `https://nodejs.org/en`
+- if you don't have it, install it and restart your computer (it is a bundle, npm and node)
 
 ## (optional) Update latest Angular CLI
 - `npm uninstall -g @angular/cli`
