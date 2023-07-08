@@ -9,8 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,8 +26,9 @@ import { HeaderComponent } from './header/header.component';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
+    HttpClientModule
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
