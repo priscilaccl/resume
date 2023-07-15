@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Host, HostListener, OnInit, ViewChild, OnChanges } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-resume',
@@ -6,11 +6,11 @@ import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Host, HostList
   styleUrls: ['./resume.component.less']
 })
 export class ResumeComponent {
-
+  
   src: string  = 'assets/pdf/resume.pdf';
-
+  
   constructor() {
     
   }
-
+  
 }
