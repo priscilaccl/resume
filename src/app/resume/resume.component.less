@@ -4,27 +4,44 @@
     .resume {
         padding: 20px;
     }
+
+    .header {
+        padding: 0 7em;
+        margin: 0 0 1em 0;
+        .title {
+            display: flex;
+            flex-direction: row;
+            padding: 0 0 0.5em 0;
+            border-bottom: 3px ridge #F2D8D6;
+            .message {
+                flex-grow: 5;
+                text-align: left;
+                font-weight: bold;
+                font-size: 3em;
+            }
+            .download {
+                flex-grow: 5;
+                text-align: right;
+                align-self: center;
+                a {
+                    font-family: pacifico;
+                    background-color: #a54657;
+                    padding: 1em 1em;
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    border-radius: 0.5em;
+                }
+            }
+        }
+    }
     
     pdf-viewer {
-        height: 2300px;
+        height: 240vh;
         width: 90vw;
         display: block;
         margin: 0 auto;
     }
     
-    .footer {
-        display: flex;
-        justify-content: flex-end;
-        margin: 20px 8vw 0 0;
-        .button {
-            a {
-                font-family: pacifico;
-                background-color: #a54657;
-                padding: 40px 70px;
-                font-size: 25px;
-                font-weight: bold;
-            }
-        }
-        }
+    
 }
 

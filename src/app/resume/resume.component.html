@@ -1,11 +1,17 @@
 <div class="resume">
-    <pdf-viewer [src]="src"
-    [original-size]="false"
-    ></pdf-viewer>
-
-    <div class="footer">
-        <div class="button">
-        <a mat-button href="assets/pdf/resume.pdf" download="Priscila_Lo_Resume.pdf">Download</a>
+    <div class="header">
+        <div class="title">
+            <div class="message">
+                My Resume
+            </div>
+            <div class="download">
+                <a mat-button href="assets/pdf/resume.pdf" download="Priscila_Lo_Resume.pdf">Download</a>
+            </div>
         </div>
     </div>
+
+    <pdf-viewer [src]="src"
+    [original-size]="false"
+    class="pdfViewerOutside"
+    ></pdf-viewer>
 </div>
